@@ -1,0 +1,110 @@
+.admin_createToken {
+  display: flex;
+  background-color: rgb(233, 233, 233);
+  height: 100vh;
+
+  .left {
+    flex: 1;
+    background-color: rgba(182, 182, 192, 0.664);
+    height: 100vh;
+
+    .top {
+      height: 180px;
+    }
+    .logo {
+      width: 90%;
+    }
+
+    .center {
+      padding-left: 10px;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        cursor: pointer;
+
+        &:hover {
+          // border-radius: 10px;
+          border: #fff;
+          background-color: rgba(180, 172, 97, 0.76);
+        }
+        .link {
+          text-decoration: none;
+          color: #2e3190;
+          //font-size: 30px;
+          &:hover {
+            color: rgb(27, 32, 34);
+          }
+        }
+
+        .icon {
+          font-size: 30px;
+        }
+        span {
+          font-size: 13px;
+          font-weight: 900;
+          margin-left: 10px;
+          color: #2e3190;
+        }
+      }
+    }
+  }
+  .right {
+    flex: 4;
+
+    .nav {
+      //background-color: #fff;
+      padding: 15px;
+      display: flex;
+      justify-content: flex-end;
+
+      p {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 10px;
+      }
+      button {
+        width: 15%;
+        height: 40px;
+      }
+    }
+
+    h5 {
+      padding: 46px;
+      font-weight: 800;
+      background-color: #fff;
+    }
+
+    .tokenform {
+      background-color: #fff;
+      padding: 30px 30px;
+      padding-left: 33px;
+      padding-right: 13px;
+      margin: 40px;
+      margin-top: 80px;
+
+      .formLabel {
+        padding-top: 30px;
+      }
+
+      Button {
+        width: 50%;
+        margin-left: 25%;
+      }
+      .error {
+        color: red;
+        margin-top: 20px;
+        margin-left: 36%;
+        font-size: medium;
+        font-weight: 700;
+      }
+    }
+  }
+}

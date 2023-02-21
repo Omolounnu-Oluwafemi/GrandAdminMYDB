@@ -1,0 +1,151 @@
+.superadmin {
+  display: flex;
+  background-color: rgb(233, 233, 233);
+  height: 100vh;
+
+  hr {
+    color: rgb(255, 255, 255);
+  }
+
+  .left {
+    flex: 1;
+    background-color: rgba(189, 189, 209, 0.664);
+    height: 100vh;
+
+    .top {
+      height: 180px;
+    }
+    .logo {
+      width: 90%;
+    }
+
+    .center {
+      padding-left: 10px;
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        cursor: pointer;
+
+        &:hover {
+          // border-radius: 10px;
+          border: #fff;
+          background-color: rgba(180, 172, 97, 0.76);
+        }
+        .link {
+          text-decoration: none;
+          color: #2e3190;
+          //font-size: 30px;
+          &:hover {
+            color: rgb(27, 32, 34);
+          }
+        }
+
+        .icon {
+          font-size: 30px;
+        }
+        span {
+          font-size: 13px;
+          font-weight: 900;
+          margin-left: 10px;
+          color: #2e3190;
+        }
+      }
+    }
+  }
+  .right {
+    flex: 4;
+
+    .nav {
+      //background-color: #fff;
+      padding: 15px;
+      display: flex;
+      justify-content: flex-end;
+
+      p {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 10px;
+      }
+      .out_in {
+        background-color: rgb(0, 81, 255);
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: relative;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        border-radius: 15px;
+        &:hover {
+          background-color: rgb(26, 170, 189);
+        }
+      }
+    }
+
+    h4 {
+      // margin-top: 20px;
+      padding: 43.5px;
+      background-color: #fff;
+      font-weight: 800;
+    }
+    .superadminbutton {
+      justify-content: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      display: flex;
+      padding-bottom: 40px;
+      gap: 30px;
+      background-color: #fff;
+      width: 95%;
+      padding-left: -50px;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+
+      .buttonright {
+        flex: 1;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+
+        Button {
+          margin-top: 30px;
+          height: 80px;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+      .buttonleft {
+        padding-top: 10px;
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        flex: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        Button {
+          margin-top: 30px;
+          //margin-right: 0px;
+          height: 80px;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+}

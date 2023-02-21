@@ -1,0 +1,26 @@
+.new {
+  padding: 50px;
+  flex: 1;
+  justify-content: space-around;
+  box-shadow: 12px 9px 30px -4px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 12px 9px 30px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 12px 9px 30px -4px rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
+  margin: 40px;
+  margin-right: px;
+  background-color: white;
+
+  .listitemAvatar {
+    //width: 20%;
+
+    .avatar {
+      width: 100%;
+      height: 85px;
+      margin-left: -20px;
+      border-radius: 50%;
+    }
+  }
+  .listitemText {
+    margin-left: 10px;
+  }
+}
